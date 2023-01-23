@@ -31,6 +31,7 @@ void sigint_funkcija ( int sig ){
 void sigterm_funkcija ( int sig ){
 	printf("\nSIGTERM primljen, zavrsavanje programa\n");
 	zavrsi = 1;
+	exit(0);
 }
 
 void sigusr1_funkcija ( int sig ){
